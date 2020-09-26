@@ -368,3 +368,154 @@ p {
     background: #29ca8e;
     color: #ffffff;
 }
+/*-----------------     
+         TEAM            
+-------------------  */
+/*.team-thumb {
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+.team-info {
+    padding: 20px 30px;
+}*/
+.team-image img {
+  width: 100%;
+  height: 350px;
+}
+
+/*.team-thumb .social-icon {
+    border-top: 1px solid #f0f0f0;
+    padding: 4px 20px 0 20px;
+}
+.team-thumb .social-icon li a {
+    background: #ffffff;
+    color: #252020;
+}
+.team-info h3 {
+    margin: 0;
+}*/
+/*--------------------------
+RESPONSIV STYLES
+-------------------------*/
+@media only screen and (max-width: 768px) {
+  .team-thumb {
+    margin-bottom: 2rem;
+  }
+}
+@media only screen and(max-width:420px) {
+  .team {
+    margin: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .team .team-thumb {
+    margin-bottom: 1rem;
+  }
+  .team .team-image {
+    width: 100%;
+  }
+  .team .team-info {
+    width: 100%;
+    margin-left: 2rem;
+  }
+  .team .social-icon {
+    width: 100%;
+    margin-left: 2rem;
+  }
+}
+@media only screen and(max-width:992px) {
+  section {
+    padding: 60px 0;
+  }
+  .team-thumb {
+    margin-bottom: 50px;
+  }
+}
+/*--------------------
+Courses
+-------------------------------------------------*/
+.section-title {
+  text-align: center;
+}
+.courses-top {
+  position: relative;
+}
+.courses-image {
+  background: linear-gradient(to right, #202020, #101010);
+  width: 100%;
+}
+.courses-date {
+  background: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.6));
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 25px;
+  color: white;
+}
+.courses-thumb {
+  width: 250px;
+}
+.courses-top {
+  text-align: left;
+}
+.curses-info {
+  width: 250px;
+  height: 150px;
+}
+.courses-author {
+  height: 50px;
+  width: 40px;
+}
+.courses-author img {
+  border-radius: 50px;
+  width: 60px !important;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.name {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  font: bold;
+}
+/*---------------------------------
+Testimonial
+--------------------------------*/
+.tst-rating .fa {
+  color: rgb(69, 7, 241);
+}
+.tst-image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  top: 40px;
+  width: 400px;
+}
+.tst-author {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  width: 400px;
+}
+
+.tst-image img {
+  border-radius: 50px;
+  width: 60px !important;
+  height: 60px;
+  margin-right: 15px;
+}
+.review-content {
+  width: 700px;
+  height: 450px;
+}
