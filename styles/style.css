@@ -33,7 +33,7 @@ section {
 #footer {
   padding: 100px 0;
 }
-#team,
+
 #testimonial {
   text-align: center;
   height: 100vh;
@@ -343,8 +343,9 @@ p {
   margin-bottom: 10px;
 }
 .entry-from .submit-btn:hover {
-  background: #3f51b5;
-  color: #ffffff;
+  background: transparent;
+  color: #29ca8e;
+  border: #29ca8e solid 2px;
 }
 @media only screen and(max-width:480px) {
   h1 {
@@ -533,10 +534,10 @@ CONTACT
   border-radius: 50px;
   border: 1px solid transparent;
 }
-.contact-form input[type="submit"]:hover {
+#contact-form input[type="submit"]:hover {
   background: transparent;
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #29ca8e;
+  color: #29ca8e;
 }
 .form-control {
   margin: 10px;
@@ -552,7 +553,7 @@ CONTACT
 .contact-image {
   position: relative;
   top: 90px;
-  left: 20px;
+  left: 40px;
 }
 /*----------------------
 MAP
@@ -596,6 +597,9 @@ footer
 
 address {
   margin-left: 80px;
+}
+address p {
+  font-size: 18px;
 }
 .copyright {
   margin-left: 80px;
